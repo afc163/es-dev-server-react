@@ -1,0 +1,16 @@
+{
+  "name": "es-dev-server-react",
+  "version": "0.0.0",
+  "description": "Develop react application with es-dev-server",
+  "author": "afc163",
+  "license": "MIT",
+  "scripts": {
+    "start": "es-dev-server --app-index index.html --node-resolve --open --watch"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "es-dev-server": "^1.5.0",
+    "es-react": "^16.12.0"
+  }
+}
